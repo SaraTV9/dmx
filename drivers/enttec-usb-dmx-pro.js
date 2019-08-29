@@ -1,4 +1,4 @@
-const SerialPort = require('serialport');
+const SerialPort = require('electron').remote.require('serialport');
 const util = require('util');
 const EventEmitter = require('events').EventEmitter;
 
